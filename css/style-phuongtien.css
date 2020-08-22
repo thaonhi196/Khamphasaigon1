@@ -6,19 +6,19 @@
 
 /* width */
 ::-webkit-scrollbar {
-  width: 3px;
+  width: 0.156vw;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
-  border-radius: 10px;
+  box-shadow: inset 0 0 0.260vw grey; 
+  border-radius: 0.521vw;
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: orange; 
-  border-radius: 10px;
+  border-radius: 0.521vw;
 }
 
 /* Handle on hover */
@@ -30,7 +30,7 @@
 .slider__navi {
 	position: absolute;
 	top: 50%;
-	right: 20px;
+	right: 1.042vw;
 	transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
@@ -41,10 +41,10 @@
 
 .slider__navi a {
 	display: block;
-	height: 20px;
-	width: 20px;
-  border-radius: 10px;
-	margin: 20px 0;
+	height: 1.042vw;
+	width: 1.042vw;
+  border-radius: 0.521vw;
+	margin: 1.042vw 0;
 	/* text-indent: -9999px; */
 	box-shadow: none;
 	border: none;
@@ -94,73 +94,73 @@ body {
 }
 
 .text--sub {
-	font-size: 12px;
+	font-size: 0.625vw;
 	letter-spacing: 0.5rem;
 	text-transform: uppercase;
-	margin-bottom: 40px;
+	margin-bottom: 2.083vw;
 }
 
 .text--big {
 	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
-	font-size: 83px;
+	font-size: 4.323vw;
 	font-weight: 900;
-	line-height: 95px;
-  margin-left: -8px;
+	line-height: 4.844vw;
+  margin-left: -0.417vw;
 	color:black;
 }
 .text--big2 {
 	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
-	font-size: 70px;
+	font-size: 3.646vw;
 	font-weight:800;
-	line-height: 70px;
-	margin-left:40px;
-	margin-bottom:20px;
+	line-height: 3.646vw;
+	margin-left:2.083vw;
+	margin-bottom:1.042vw;
 	color:black;
 }
 .text--bignhahat {
 	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
-	font-size: 83px;
+	font-size: 4.323vw;
 	font-weight: 900;
-	line-height: 95px;
-  margin-left: -8px;
+	line-height:4.844vw;
+  margin-left: -0.417vw;
 	color:black;
 }
 .text--bigline {
 	font-family: "iCiel Mont Black";
-	font-size: 40px;
+	font-size: 2.083vw;
 	font-weight: 900;
-    margin-left: -8px;
-	letter-spacing: 16px;
+    margin-left: -0.417vw;
+	letter-spacing: 0.833vw;
     color: white;
-	-webkit-text-stroke-width: 1px; 
+	-webkit-text-stroke-width: 0.052vw; 
     -webkit-text-stroke-color: black;
 }
   
 .text--normal {
-	font-size: 14px;
+	font-size: 0.729vw;
 	font-family: "iCiel Mont";
 	font-weight: 420;
-	line-height: 22px;
-	margin-top: 30px;
+	line-height: 1.146vw;
+	margin-top:1.563vw;
 	color:black;
 }
 .text--normal2 {
-	font-size: 14px;
+	font-size: 0.729vw;
 	font-family: "iCiel Mont";
 	font-weight: 420;
-	line-height: 22px;
-	margin-right:120px;
-	margin-left:50px;
+	line-height: 1.146vw;
+	margin-right:6.250vw;
+	margin-left:2.604vw;
 	color:black;
 }
 
 .text__background {
 	font-family: 'Poppins', sans-serif;
 	position: absolute;
-	left: 72px;
-	bottom: -60px;
+	left: 3.750vw;
+	bottom: -3.125vw;
 	color: rgba(0,0,0,0.05);
-	font-size: 170px;
+	font-size: 8.854vw;
 	font-weight: 700;
 }
 
@@ -205,7 +205,7 @@ body {
 	background: white;
 	display: flex;
   align-items: center;
-	padding-left: 60px;
+	padding-left: 3.125vw;
 }
 
 .flex--piplup .flex__item--right {
@@ -218,7 +218,7 @@ body {
 	background: white;
 	display: flex;
   align-items: center;
-	padding-left: 60px;
+	padding-left: 3.125vw;
 }
 
 .flex--pikachu .flex__item--right {
@@ -231,7 +231,7 @@ body {
 	background: white;
 	display: flex;
   align-items: center;
-	padding-left: 60px;
+	padding-left: 3.125vw;
 }
 
 .flex--blaziken .flex__item--right {
@@ -244,7 +244,7 @@ body {
 	background: white;
 	display: flex;
   align-items: center;
-	padding-left: 60px;
+	padding-left: 3.125vw;
 }
 
 .flex--dialga .flex__item--right {
@@ -257,7 +257,7 @@ body {
 	background: white;
 	display: flex;
   align-items: center;
-	padding-left: 60px;
+	padding-left: 3.125vw;
 }
 
 .flex--zekrom .flex__item--right {
@@ -265,7 +265,7 @@ body {
 }
 
 .flex__content {
-	margin-left: 80px;
+	margin-left: 4.167vw;
 	width: 55%;
 	opacity: 1;
 	transform: translate3d(0,0,0);
@@ -316,11 +316,11 @@ body {
 
 header{
 	display: block;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100px;
+	height: 5.208vw;
 	z-index: 10;
 	
 }
@@ -328,9 +328,9 @@ header{
 .logo
 {
 	width: 20%;
-	height: 70px;
-	margin-left: 60px;
-	padding-top: 30px;
+	height: 3.646vw;
+	margin-left: 3.125vw;
+	padding-top: 1.563vw;
 	float: left; 
 
 	
@@ -340,39 +340,36 @@ header{
 	width: 70%;
 	height: 100%;
 	float: right;
-	
+	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
 }
 .menu-ipad
 {
 	height: 100%;
 	float: right;
 	display: none;
-	padding: 30px 50px 0px 0px;
+	padding: 1.563vw 2.604vw 0px 0px;
 }
-
-
 ul 
 {
   list-style-type: none;
-  font-family:"iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
-  letter-spacing: 4px;
-  padding-left: 30px;
-  padding-right:60px;
-  padding-top: 30px;
-  text-decoration: none;
-  font-size: 14px;
+  letter-spacing: 0.208vw;
+  padding-left: 1.563vw;
+  padding-right:3.125vw;
+  padding-top: 1.563vw;
+  font-size: 0.729vw;
+  margin: 
 }
 
 li {
   float: right;
-  padding-left:80px;
+  padding-left:3.646vw;
 }
 
 li a {
   display: block;
-  padding: 8px;
+  padding: 0.417vw;
   text-decoration: none;
-  color: #254B4B;
+  color:#254B4B;
 }
 li a {
   background: darken($red, 1.5%);
@@ -396,11 +393,12 @@ li a {
 }
 
 li a:hover {
-  font-weight: 900;;
-    text-decoration: none;
-	color: orange;
-	
-
+  background: rgba($red, 0);
+  font-weight: 900;
+  letter-spacing:0.208vw;
+  color: orange;
+  text-decoration: none;
+  
   rect {
     stroke-width: 5;
     stroke-dasharray: 15, 310;
@@ -411,20 +409,22 @@ li a:hover {
 
 button {
 	font-family: inherit;
-	font-size: inherit;
+	font-size:0.729vw;
 }
 
 .button {
 	position: relative;
-	height: 60px;
-	width: 300px;
+	height: 3.125vw;
+	width: 15.625vw;
 	background-color: transparent;
-	border: 1px solid #000000;
+	border: 0.052vw solid #000000;
 	color:black;
 	cursor: pointer;
 	transition: color 150ms cubic-bezier(0.1, 0.7, 0.6, 0.9); 
+	color: black;
 	font-weight: 700;
 	font-family: "iCiel Mont";
+	font-size:0.729vw;
 }
 	
 .button:before {
@@ -437,7 +437,7 @@ button {
 	background-color: orange;
 	transform: scaleX(0);
 	transform-origin: left center;
-	transition: transform 900ms cubic-bezier(0.1, 0.7, 0.6, 0.9);
+	transition: transform 1500ms cubic-bezier(0.1, 0.7, 0.6, 0.9);
 }
 	
 .button:hover::before {
@@ -502,14 +502,13 @@ button {
 .flex_page_1 {
 	height: 100vh;
 	color: #fff;
-	background-color:antiquewhite;
 	transform: translate(100%);
 	position: absolute;
 	opacity:1;
    display: flex;
   flex-direction: column;
-    padding-top:120px;
-	padding-left:100px;
+    padding-top:6.250vw;
+	padding-left:5.208vw;
 	overflow-y: auto;
 	overflow-x: hidden;
 }
@@ -534,20 +533,21 @@ button {
 
 
 
+
 .tooltiptext {
 	content: "ahihi";
 	visibility: visible;
 	opacity: 0;
   	transition: 0.25s;
-	width: 80px;
+	width: 4.167vw;
 	background-color: orange;
-  	font-size: 13px;
+  	font-size: 0.677vw;
   	font-weight: bold;
   	
 	color: #fff;
 	text-align: center;
-	border-radius: 6px;
-	padding: 4px ;
+	border-radius: 0.313vw;
+	padding:0.208vw ;
 	
 	/* Position the tooltip */
 	position: absolute;
@@ -574,24 +574,24 @@ video {
 }
 hr.new1
 {
-	border-top: 1px solid black;
+	border-top: 0.052vw solid black;
 }
 hr.new2
 {
-	border-top: 1px solid black;
-	margin-left:30px;
-	margin-bottom:30px;
+	border-top: 0.052vw solid black;
+	margin-left:1.563vw;
+	margin-bottom:1.563vw;
 }
 
 .circle {
     position: absolute;
     color: black;
-	border: 1px #CD6343;
-    width: 25px;
-    height: 25px;
+	border: 0.052vw #CD6343;
+    width: 1.302vw;
+    height: 1.302vw;
     border-radius: 50%;
-    line-height: 18px;
-    font-size: 20px;
+    line-height: 0.938vw;
+    font-size: 1.042vw;
 	font-weight: 700;
     text-align: center;
     cursor: pointer;
@@ -600,9 +600,9 @@ hr.new2
 }
 .linebox
 {
-	width: 500px;
-	height: 60px;
-	margin-left:45px;
+	width: 26.042vw;
+	height: 3.125vw;
+	margin-left:2.344vw;
 	display: flex;
 	flex-direction:row;
 	 align-items: center;
@@ -621,11 +621,11 @@ hr.new2
 	text-align:center;
 	opacity: 0.8;
   }
-  
+ 
   .sidenav a {
-	padding: 20px 8px 8px 32px;
+	padding: 1.042vw 0.417vw 0.417vw 1.667vw;
 	text-decoration: none;
-	font-size: 40px;
+	font-size: 2.083vw;
 	font-family: "iCiel Mont";
 	font-weight: 800;
 	color: #254B4B;
@@ -643,9 +643,9 @@ hr.new2
   .sidenav .closebtn {
 	position: absolute;
 	top: 0;
-	right: 25px;
-	font-size: 36px;
-	margin-left: 50px;
+	right: 1.302vw;
+	font-size: 1.875vw;
+	margin-left: 2.604vw;
   }
 	
 #load-block {
@@ -714,6 +714,7 @@ hr.new2
     100%{opacity:1;}
   }
 
+
 @font-face {
   font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
   src:url( "../[iCiel] Mont/iCielMont-Regular.otf");
@@ -721,10 +722,9 @@ hr.new2
 
 
 
-
  @media screen and (max-height: 1366px) {
-	.sidenav {padding-top: 15px;}
-	.sidenav a {font-size: 18px;}
+	.sidenav {padding-top: 0.781vw;}
+	.sidenav a {font-size: 0.938vw;}
   }
 @media screen and (max-width: 1024px) {
 	.menu {display: none;}
@@ -740,6 +740,9 @@ hr.new2
 		height:auto;
 		width: auto;
 	}
+.flex_page_1 {
+overflow: hidden;}
+	
 .flex__container {
 height:auto;
 width: auto;
@@ -777,16 +780,17 @@ padding-top:12vh;}
 	left: 55%;
 	transform: translate(-50%, -50%);
 }
+	.linebox{
+		margin-left:1.563vw;
+	}	
+	
 .text--big2 {
-	margin-left:30px;
+	margin-left:1.563vw;
 	margin-top:5vh;
 }
 .text--normal2 {
-	margin-left:30px;
+	margin-left:1.563vw;
 }
-.linebox{
-		margin-left: 30px;
-	}	
 .slider__navi
 	{
 		top: 40%;
@@ -797,13 +801,14 @@ padding-top:12vh;}
 		position:fixed;
 	}
 	.slider__navi a {
-	height: 30px;
-	width: 30px;
-	border-radius:50px;
+	height: 1.563vw;
+	width: 1.563vw;
+	border-radius:2.604vw;
 	}
+	
 .flex_page_1 {
 	overflow: hidden;
-}
+}	
 	.flex__content{
 	margin-bottom:40%;
 }

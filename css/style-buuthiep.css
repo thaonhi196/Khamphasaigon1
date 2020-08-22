@@ -32,7 +32,7 @@
 .slider__navi {
 	position: absolute;
 	top: 50%;
-	right: 20px;
+	right: 1.042vw;
 	transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
@@ -43,10 +43,10 @@
 
 .slider__navi a {
 	display: block;
-	height: 20px;
-	width: 20px;
-  border-radius: 10px;
-	margin: 20px 0;
+	height: 1.042vw;
+	width: 1.042vw;
+  border-radius: 0.521vw;
+	margin: 1.042vw 0;
 	/* text-indent: -9999px; */
 	box-shadow: none;
 	border: none;
@@ -54,9 +54,8 @@
 }
 
 .slider__navi a.active {
-	background: orange;
+	background: orange;}
 	
-}
 
 body {
 	position: relative;
@@ -321,44 +320,40 @@ header{
 	width: 70%;
 	height: 100%;
 	float: right;
-	display: block;
-	
+	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
 }
 .menu-ipad
 {
 	height: 100%;
 	float: right;
 	display: none;
-	padding: 30px 50px 0px 0px;
+	padding: 1.563vw 2.604vw 0px 0px;
 }
 ul 
 {
   list-style-type: none;
-  font-family:"iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
-  letter-spacing: 4px;
-  padding-left: 30px;
-  padding-right:60px;
-  padding-top: 30px;
-  text-decoration: none;
-  font-size: 14px;
+  letter-spacing: 0.208vw;
+  padding-left: 1.563vw;
+  padding-right:3.125vw;
+  padding-top: 1.563vw;
+  font-size: 0.729vw;
+  margin: 
 }
 
 li {
   float: right;
-  padding-left:80px;
-  text-decoration: none;
+  padding-left:3.646vw;
 }
 
 li a {
   display: block;
-  padding: 8px;
+  padding: 0.417vw;
   text-decoration: none;
-  color: #254B4B;
+  color:#254B4B;
 }
 li a {
   background: darken($red, 1.5%);
   font-weight: 500;
-	text-decoration: none;
   
   svg {
     height: 45px;
@@ -378,12 +373,12 @@ li a {
 }
 
 li a:hover {
-  font-weight: 900;;
-	letter-spacing:4px;
-    text-decoration: none;
-	color: orange;
-	
-
+  background: rgba($red, 0);
+  font-weight: 900;
+  letter-spacing:0.208vw;
+  color: orange;
+  text-decoration: none;
+  
   rect {
     stroke-width: 5;
     stroke-dasharray: 15, 310;
@@ -391,6 +386,7 @@ li a:hover {
     transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
   }
 }
+
 li a:after
 {
 	text-decoration: none;
@@ -401,15 +397,15 @@ li a:after
 	visibility: visible;
 	opacity: 0;
   	transition: 0.25s;
-	width: 80px;
+	width: 4.167vw;
 	background-color: orange;
-  	font-size: 13px;
+  	font-size: 0.677vw;
   	font-weight: bold;
   	
 	color: #fff;
 	text-align: center;
-	border-radius: 6px;
-	padding: 4px ;
+	border-radius: 0.313vw;
+	padding:0.208vw ;
 	
 	/* Position the tooltip */
 	position: absolute;
@@ -422,7 +418,6 @@ li a:after
 	opacity: 1;
 	transform: translateX(-10%);
 }
-
 
 .form {
   border-radius: 10px;

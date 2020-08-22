@@ -77,22 +77,22 @@ header{
 ul 
 {
   list-style-type: none;
-  letter-spacing: 4px;
-  padding-left: 30px;
-  padding-right:60px;
-  padding-top: 15px;
-  font-size: 14px;
+  letter-spacing: 0.208vw;
+  padding-left: 1.563vw;
+  padding-right:3.125vw;
+  padding-top: 1.563vw;
+  font-size: 0.729vw;
   margin: 
 }
 
 li {
   float: right;
-  padding-left:70px;
+  padding-left:3.646vw;
 }
 
 li a {
   display: block;
-  padding: 8px;
+  padding: 0.417vw;
   text-decoration: none;
   color:#254B4B;
 }
@@ -120,8 +120,9 @@ li a {
 li a:hover {
   background: rgba($red, 0);
   font-weight: 900;
-  letter-spacing:4px;
+  letter-spacing:0.208vw;
   color: orange;
+  text-decoration: none;
   
   rect {
     stroke-width: 5;
@@ -129,6 +130,11 @@ li a:hover {
     stroke-dashoffset: 48;
     transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
   }
+}
+
+li a:after
+{
+	text-decoration: none;
 }
 .noidung
 {

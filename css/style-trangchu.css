@@ -5,19 +5,19 @@
 
 /* width */
 ::-webkit-scrollbar {
-  width: 3px;
+  width: 0.156vw;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
-  border-radius: 10px;
+  box-shadow: inset 0 0 0.260vw grey; 
+  border-radius: 0.521vw;
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: orange; 
-  border-radius: 10px;
+  border-radius: 0.521vw;
 }
 
 /* Handle on hover */
@@ -26,9 +26,9 @@
 }
 
 
+
 html {
   font-family: 'iCiel Mont', 'iCiel Mont Black', 'iCiel Mont Bold', 'iCiel Mont Heavy', 'iCiel Mont SemiBold', 'iCiel Mont Light', 'iCiel Mont Book';
-  font-size: 16px;
   font-smooth: auto;
   font-weight: 300;
   line-height: 1.5;
@@ -71,7 +71,7 @@ nav.main ul {
   width: 100%;
   height: 100vh;
   margin: 0;
-  padding: 20px;
+  padding: 1.042vw;
   background-color: rgba(0, 0, 0, 0.9);
   list-style-type: none;
   transition: 0.25s;
@@ -122,7 +122,7 @@ section p {
 
 nav.dots {
   position: fixed;
-  right: 20px;
+  right: 1.042vw;
   top: 50%;
   display: flex;
   flex-direction: column;
@@ -134,9 +134,9 @@ nav.dots {
 nav.dots a {
   position: relative;
   display: block;
-  width: 20px;
-  height: 20px;
-  margin: 10px 0;
+  width: 1.042vw;
+  height: 1.042vw;
+  margin: 0.521vw 0;
   background-color:rgba(0,0,0,0.2);
   border-radius: 50%;
 }
@@ -159,16 +159,16 @@ nav.dots a.active {
   opacity: 0;
   transition: 0.25s;
   visibility: hidden;
-	width:90px;
+	width:4.688vw;
 	
 }
 .tooltip:before {
   content: attr(data-tooltip);
   top: -50%;
   right: 150%;
-  padding: 10px;
-  border-radius: 5px;
-  font-size: 12px;
+  padding: 0.521vw;
+  border-radius: 0.260vw;
+  font-size: 0.625vw;
   font-weight: bold;
   font-family:"iCiel Mont";
   transform: translateX(-10%);
@@ -179,7 +179,7 @@ nav.dots a.active {
 }
 .tooltip:after {
   content: '';
-  right: 20px;
+  right: 1.042vw;
 }
 .tooltip:hover:before, .tooltip:hover:after {
   opacity: 1;
@@ -189,7 +189,7 @@ nav.dots a.active {
   transform: translateX(0%);
 }
 .tooltip:hover:after {
-  right: 20px;
+  right: 1.042vw;
   transform: translateX(0%);
 }
 
@@ -197,9 +197,9 @@ nav.dots a.active {
   position: relative;
   width:9vh;
   background-color: orange;
-  border-radius: 5px;
-  padding: 10px;
-	font-size: 12px;
+  border-radius: 0.260vw;
+  padding: 0.521vw;
+	font-size: 0.625vw;
   font-weight: 500;
   font-family:"iCiel Mont";
 	color:white;
@@ -225,7 +225,7 @@ nav.dots a.active {
 }
 .tooltip2:after {
   content: '';
-  right: 20px;
+  right: 1.042vw;
 }
 .tooltip2:hover:before, .tooltip2:hover:after {
   opacity: 1;
@@ -235,34 +235,34 @@ nav.dots a.active {
   transform: translateX(0%);
 }
 .tooltip2:hover:after {
-  right: 20px;
+  right: 1.042vw;
   transform: translateX(0%)
 }
 
 .tooltip3 {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
+  border-bottom: 0.052vw dotted black;
 }
 
 .tooltip3 .tooltiptext3 {
   visibility: hidden;
-  width: 80px;
+  width: 4.167vw;
   background-color: orange;
   color: #fff;
   text-align: center;
-  border-radius: 6px;
-  padding: 10px;
+  border-radius: 0.313vw;
+  padding: 0.521vw;
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
   bottom: 70%;
   left: 5%;
-  margin-left: 10px;
-  font-size:12px;
+  margin-left: 0.521vw;
+  font-size:0.625vw;
   font-weight:500;
 	font-family: "iCiel Mont";
-  line-height: 13px;
+  line-height: 0.677vw;
 }
 
 .tooltip3:hover .tooltiptext3 {
@@ -271,27 +271,27 @@ nav.dots a.active {
 .tooltip4 {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
+  border-bottom: 0.052vw dotted black;
 }
 
 .tooltip4 .tooltiptext4 {
   visibility: hidden;
-  width: 80px;
+  width: 4.167vw;
   background-color: orange;
   color: #fff;
   text-align: center;
-  border-radius: 6px;
-  padding: 10px;
+  border-radius: 0.313vw;
+  padding: 0.521vw;
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
   bottom: 71%;
   left:10%;
   margin-left: 10px;
-  font-size:12px;
+  font-size:0.625vw;
   font-weight:500;
 	font-family: "iCiel Mont";
-	line-height: 13px;
+	line-height: 0.677vw;
 }
 
 .tooltip4:hover .tooltiptext4{
@@ -300,27 +300,27 @@ nav.dots a.active {
 .tooltip5 {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
+  border-bottom: 0.052vw dotted black;
 }
 
 .tooltip5 .tooltiptext5 {
   visibility: hidden;
-  width: 80px;
+  width: 4.167vw;
   background-color: orange;
   color: #fff;
   text-align: center;
-  border-radius: 6px;
-  padding: 10px;
+  border-radius: 0.313vw;
+  padding: 0.521vw;
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
   bottom: 71%;
   left: 15%;
-  margin-left: 10px;
-  font-size:12px;
+  margin-left: 0.521vw;
+  font-size:0.625vw;
   font-weight:500;
 	font-family: "iCiel Mont";
-  line-height: 13px;
+  line-height: 0.677vw;
 }
 
 .tooltip5:hover .tooltiptext5{
@@ -332,7 +332,7 @@ header{
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100px;
+	height: 5.208vw;
 	z-index: 10;
 	
 }
@@ -340,9 +340,9 @@ header{
 .logo
 {
 	width: 20%;
-	height: 70px;
-	margin-left: 60px;
-	padding-top: 30px;
+	height: 3.646vw;
+	margin-left: 3.125vw;
+	padding-top: 1.563vw;
 	float: left; 
 
 	
@@ -359,27 +359,27 @@ header{
 	height: 100%;
 	float: right;
 	display: none;
-	padding: 30px 50px 0px 0px;
+	padding: 1.563vw 2.604vw 0px 0px;
 }
 ul 
 {
   list-style-type: none;
-  letter-spacing: 4px;
-  padding-left: 30px;
-  padding-right:60px;
-  padding-top: 15px;
-  font-size: 14px;
+  letter-spacing: 0.208vw;
+  padding-left: 1.563vw;
+  padding-right:3.125vw;
+  padding-top: 0.781vw;
+  font-size: 0.729vw;
   margin: 
 }
 
 li {
   float: right;
-  padding-left:70px;
+  padding-left:3.646vw;
 }
 
 li a {
   display: block;
-  padding: 8px;
+  padding: 0.417vw;
   text-decoration: none;
   color:#254B4B;
 }
@@ -407,7 +407,7 @@ li a {
 li a:hover {
   background: rgba($red, 0);
   font-weight: 900;
-  letter-spacing:4px;
+  letter-spacing:0.208vw;
   color: orange;
   
   rect {
@@ -429,7 +429,7 @@ li a:hover {
 	float: right;
 	display:flex;
 	flex-direction: column;
-	padding-left:30px;
+	padding-left:1.563vw;
 	justify-content: center;
   align-items: center;
   align-content: center;
@@ -437,10 +437,10 @@ li a:hover {
 }
 .o1
 {
-	width: 420px;
-	height:420px;
+	width: 21.875vw;
+	height:21.875vw;
 	background-color: azure;
-	margin:20px;
+	margin:21.875vw;
 }
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
 /* the important bits */
@@ -712,11 +712,11 @@ nav.box li a {
 }
 nav.box li h3 {
   margin: 0;
-  font-size: 16px;
+  font-size: 0.833vw;
   color: rgba(255, 255, 255, 0.9);
 }
 nav.box li p {
-  font-size: 12px;
+  font-size: 0.625vw;
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.8);
 }
@@ -777,7 +777,7 @@ video {
   border: 1px solid black;
   overflow: hidden;
 	color: #000;
-	font-size: 12px;
+	font-size: 0.625vw;
 	font-family: "iCiel Mont SemiBold";
 	background: none;
 	cursor: pointer;
@@ -815,7 +815,7 @@ video {
 .box2
 {
 	width:100%;
-	height:100px;
+	height:5.208vw;
 	display: flex;
   justify-content: center;
   align-items: center;
@@ -824,7 +824,7 @@ video {
 .box2a
 {
 	width:25%;
-	height:100px;
+	height:5.208vw;
 	display: flex;
   justify-content: center;
   align-items: center;
@@ -840,9 +840,9 @@ video {
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-	padding:20px;
-	padding-top: 80px;
-	line-height: 20px;
+	padding:1.042vw;
+	padding-top: 4.167vw;
+	line-height: 1.042vw;
 }
 .box3b
 {
@@ -853,38 +853,40 @@ video {
   flex-direction: column;
   justify-content: center;
 	 align-items: flex-end;
-	padding:20px;
-	padding-top: 80px;
+	padding:1.042vw;
+	padding-top: 4.167vw;
 	align-items: flex-start;
 	font-family: "iCiel Mont";
 	font-weight:400;
-	font-size: 20px;
+	font-size: 1.042vw;
 }
 .form {
   border-radius: 10px;
   display:flex;
   flex-direction: column;
-  line-height: 20px;
+  line-height: 1.042vw;
 }
 input[type=text]{
   width: 45vh;
-  padding: 12px 20px;
-  margin: 8px 0;
+  padding: 0.625vw 1.042vw;
+  margin: 0.417vw 0;
   display: inline-block;
-  border: 1px solid #D8573E;
+  border: 0.052vw solid #D8573E;
   box-sizing: border-box;
-  height: 60px;
+  height: 3.125vw;
   color: #D09185;
+  font-size:0.729vw;
+  font-family:"iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
   
 }
 
 input[type=submit] {
   width: 450px;
   background-color: #4CAF50;
-  padding: 14px 20px;
-  margin: 8px 0;
+  padding: 0.729vw 1.042vw;
+  margin: 0.417vw 0;
   border: none;
-  height: 60px;
+  height: 3.125vw;
   margin-top:0.3vh;
 }
 
@@ -895,23 +897,25 @@ textarea {
   height: 15vh;
   max-width: 100%;
   resize: none;
-  border:1px solid #D8573E;
-  padding: 12px 20px;
+  border:0.052vw solid #D8573E;
+  padding: 1.042vw 1.042vw;
   margin-top:0.5vh;
   color: #D09185;
+  font-size:0.729vw;
+  font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
 }
 textarea:focus {
-	border: 1px solid #D8573E;
+	border: 0.052vw solid #D8573E;
 }
 .button2 {
   position: relative;
  
   -webkit-transform: translateY(-50%) translateX(-50%);
           transform: translateY(-50%) translateX(-50%);
-  border: 1px solid #D8573E;
+  border: 0.052vw solid #D8573E;
   overflow: hidden;
 	color: #D8573E;
-	font-size: 14px;
+	font-size: 0.729vw;
 	font-family: "iCiel Mont SemiBold";
 	background: none;
 	cursor: pointer;
@@ -988,36 +992,36 @@ h3
 	color:white;
 	font-family:"iCiel Mont";
 	font-weight:300;
-	font-size: 16px;
-	line-height:20px;
+	font-size: 0.833vw;
+	line-height:1.042vw;
 }
 h1
 {
 	font-family:"iCiel Mont";
 	color:white;
-	font-size:40px;
+	font-size:2.083vw;
 	line-height:0;
-	margin-bottom: 15px;
+	margin-bottom: 0.781vw;
 }
 h2 {
   margin: 0;
   padding: 0;
   color: white;
-  line-height:20px;
+  line-height:1.042vw;
 }
 
 .text--big1 {
 	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
-	font-size: 90px;
+	font-size: 4.688vw;
 	font-weight: 900;
-	line-height: 93px;
+	line-height: 4.844vw;
   margin-left: -9%;;
 	color:#D8573E;
 	margin-bottom:2vh;
 }
 .text--big2 {
 	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
-	font-size: 86px;
+	font-size:4.479vw;
 	font-weight: 900;
 	line-height: 6vh;
 	color:#FF8C46;
@@ -1026,15 +1030,15 @@ h2 {
 
 .text--bigline {
 	font-family: "iCiel Mont Black";
-	font-size: 90px;
+	font-size: 4.688vw;
 	font-weight: 900;
-    margin-left: 60px;
+    margin-left: 3.125vw;
     color: white;
-	-webkit-text-stroke-width: 1px; 
+	-webkit-text-stroke-width: 0.052vw; 
     -webkit-text-stroke-color: black;
 }
 .text--normal2 {
-	font-size: 14px;
+	font-size: 0.729vw;
 	font-family: "iCiel Mont";
 	font-weight: 450;
 	bottom:0;
@@ -1043,7 +1047,7 @@ h2 {
 }
 hr.new1
 {
-	border-top: 1px solid black;
+	border-top: 0.052vw solid black;
 	line-height: 4vh;
 }
 .open-button {
@@ -1073,7 +1077,7 @@ hr.new1
 .form-container {
   width: 100%;
   height: 100%;
-  padding: 10px;
+  padding: 0.521vw;
   background-color:#FDEEE3;
   opacity:0.9;
 	right:0;
@@ -1084,12 +1088,12 @@ hr.new1
 .form-container .btn {
   background-color: #4CAF50;
   color: white;
-  padding: 16px 20px;
+  padding: 0.833vw 1.042vw;
   border: none;
   cursor: pointer;
   width: 40%;
   height:50px; 
-  margin-bottom:10px;
+  margin-bottom:0.521vw;
   opacity: 0.8;
 
 }
@@ -1097,8 +1101,8 @@ hr.new1
 /* Add a red background color to the cancel button */
 .form-container .cancel {
   background-color: red;
-  margin-left:120px;
-  margin-top:50px;
+  margin-left:6.250vw;
+  margin-top:2.604vw;
   
 }
 
@@ -1113,12 +1117,12 @@ hr.new1
   border: none;
   cursor: pointer;
   width: 40%;
-  height:50px; 
-  margin-bottom:10px;
+  height:2.604vw; 
+  margin-bottom:0.521vw;
   opacity: 0.8;
-  border-radius:50px;
-  margin-left:420px;
-  margin-top:50px;
+  border-radius:2.604vw;
+  margin-left:21.875vw;
+  margin-top:2.604vw;
 }
 .form-containera
 {
@@ -1153,7 +1157,7 @@ hr.new1
   border: 1px solid black;
   overflow: hidden;
 	color: #000;
-	font-size: 14px;
+	font-size: 0.729vw;
 	font-weight: 700;
 	font-family:"iCiel Mont";
 	background: none;
@@ -1350,8 +1354,7 @@ hr.new1
 
 
 
-
- @media screen and (max-height: 1366px) {
+@media screen and (max-height: 1366px) {
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
   }
@@ -1503,8 +1506,227 @@ hr.new1
 		
 	}
 	
+	.tooltip {
+  position: relative;
+  width:100px;
+  
+}
+.tooltip:before, .tooltip:after {
+  position: absolute;
+  line-height: 1;
+  opacity: 0;
+  transition: 0.25s;
+  visibility: hidden;
+	width:90px;
 	
+}
+.tooltip:before {
+  content: attr(data-tooltip);
+  top: -50%;
+  right: 150%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family:"iCiel Mont";
+  transform: translateX(-10%);
+	justify-content: center;
+	display:flex;
+	background-color: orange;
+ 
+}
+.tooltip:after {
+  content: '';
+  right: 20px;
+}
+.tooltip:hover:before, .tooltip:hover:after {
+  opacity: 1;
+  visibility: visible;
+}
+.tooltip:hover:before {
+  transform: translateX(0%);
+}
+.tooltip:hover:after {
+  right: 20px;
+  transform: translateX(0%);
+}
+
+.tooltip2 {
+  position: relative;
+  width:9vh;
+  background-color: orange;
+  border-radius: 5px;
+  padding: 10px;
+	font-size: 12px;
+  font-weight: 500;
+  font-family:"iCiel Mont";
+	color:white;
+	left:-8%;
+	top:2%;
+	opacity:0.8;
+}
+.tooltip2:before, .tooltip2:after {
+  position: absolute;
+  line-height: 1;
+  opacity: 0;
+  transition: 0.25s;
+  visibility: hidden;
 	
+}
+.tooltip2:before {
+  content: attr(data-tooltip);
+  background-color: orange;
+  transform: translateX(-10%);
+	justify-content: center;
+	display:flex;
+ 
+}
+.tooltip2:after {
+  content: '';
+  right: 20px;
+}
+.tooltip2:hover:before, .tooltip2:hover:after {
+  opacity: 1;
+  visibility: visible;
+}
+.tooltip2:hover:before {
+  transform: translateX(0%);
+}
+.tooltip2:hover:after {
+  right: 20px;
+  transform: translateX(0%)
+}
+
+.tooltip3 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip3 .tooltiptext3 {
+  visibility: hidden;
+  width: 80px;
+  background-color: orange;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 70%;
+  left: 5%;
+  margin-left: 10px;
+  font-size:12px;
+  font-weight:500;
+	font-family: "iCiel Mont";
+  line-height: 13px;
+}
+
+.tooltip3:hover .tooltiptext3 {
+	visibility: visible;}
+
+.tooltip4 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip4 .tooltiptext4 {
+  visibility: hidden;
+  width: 80px;
+  background-color: orange;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 71%;
+  left:10%;
+  margin-left: 10px;
+  font-size:12px;
+  font-weight:500;
+	font-family: "iCiel Mont";
+	line-height: 13px;
+}
+
+.tooltip4:hover .tooltiptext4{
+	visibility: visible;}
+
+.tooltip5 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip5 .tooltiptext5 {
+  visibility: hidden;
+  width: 80px;
+  background-color: orange;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 71%;
+  left: 15%;
+  margin-left: 10px;
+  font-size:12px;
+  font-weight:500;
+	font-family: "iCiel Mont";
+  line-height: 13px;
+}
+
+.tooltip5:hover .tooltiptext5{
+	visibility: visible;}
+
+.button1 {
+  position: relative;
+ 
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+  border: 1px solid black;
+  overflow: hidden;
+	color: #000;
+	font-size: 12px;
+	font-family: "iCiel Mont SemiBold";
+	background: none;
+	cursor: pointer;
+	padding: 2vh 5vh;
+	display: inline-block;
+	outline: none;
+	top:5vh;
+	left: 12vh;
+	-webkit-transition: all 0.3s cubic-bezier(0.770, 0.000, 0.175, 1.000);
+	transition: all 0.3s cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+.button1:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s cubic-bezier(0.770, 0.000, 0.175, 1.000);
+	transition: all 0.3s cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  width: 0%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: orange;
+}
+
+.button1:hover,
+.button1:active {
+	color: white;
+}
+
+.button1:hover:after,
+.button1:active:after {
+	width: 100%;
+}	
 	
 	
 	
@@ -1514,5 +1736,3 @@ hr.new1
 	
 	
 }	
-
-	
