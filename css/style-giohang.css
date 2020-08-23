@@ -600,14 +600,14 @@ h2
 	  }
 	 .noidung1
 	  {
-		  width: 100%;
+		  width: auto;
 		  height:100vh;
 		  float:none;
 		  padding-left:-5%;
 	  }
 	  .noidung2
 	  {
-		  width: 100%;
+		  width: auto;
 		  height:85vh;
 		  float:none;
 		  padding-top:15vh;
@@ -704,7 +704,7 @@ input[type=text], select {
 {
 	width: 560px;
 	height: 150px;
-	margin-left:11vh;
+	margin-left:13vh;
 	margin-top: 10px;
 	display: flex;
   flex-direction: row;
@@ -741,7 +741,7 @@ input[type=text], select {
     width: 460x;
 	height: 50px;
 	
-	margin-left:11vh;
+	margin-left:13vh;
 	margin-top:103px;
 	line-height: 20px;
 }
@@ -759,7 +759,7 @@ input[type=text], select {
     width: 460x;
 	height: 50px;
 	font-weight: 800;
-	margin-left:11vh;
+	margin-left:13vh;
 	margin-top:20px;
 	line-height: 20px;
 }
@@ -768,7 +768,7 @@ input[type=text], select {
     width: 600px;
 	height: 79px;
 	
-	margin-left:11vh;
+	margin-left:13vh;
 	margin-top:5px;
 	display: flex;
 	
@@ -811,7 +811,7 @@ input[type=text], select {
 {
     width: 500px;
 	height: 95px;
-	margin-left:11vh;
+	margin-left:13vh;
 	line-height: 20px;
 	
 }
@@ -820,7 +820,7 @@ input[type=text], select {
   display: flex;
   justify-content: center;
  width: 200px;
-margin-left:24vh;
+margin-left:26vh;
  padding-top:15px;
 }
 
@@ -832,7 +832,7 @@ margin-left:24vh;
   position: absolute;
   width: 200px;
 	margin-top:20px;
-  margin-left:24vh;
+  margin-left:26vh;
 }
 
 /* The popup form - hidden by default */
