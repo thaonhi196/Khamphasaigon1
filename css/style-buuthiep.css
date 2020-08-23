@@ -95,18 +95,18 @@ body {
 }
 
 .text--sub {
-	font-size: 20px;
+	font-size: 1.042vw;
 	letter-spacing: 0.5rem;
 	text-transform: uppercase;
-	margin-bottom: 10px;
+	margin-bottom: 0.521vw;
 	color: black;
 }
 
 .text--big {
 	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
-	font-size: 60px;
+	font-size: 3.125vw;
 	font-weight: 900;
-	line-height: 15px;
+	line-height: 0.781vw;
   margin-left: -8px;
 }
 .text--bignhahat {
@@ -129,11 +129,11 @@ body {
 }
   
 .text--normal {
-	font-size: 15px;
+	font-size: 0.781vw;
 	font-family:"iCiel Mont";
 	font-weight: 500;
-	line-height: 10px;
-	margin-top: 25px;
+	line-height: 0.521vw;
+	margin-top: 1.302vw;
 	color:black;
 }
 
@@ -155,6 +155,7 @@ body {
 h3
 {
 	font-family: "iCiel Mont";
+	font-size:1.302vw;
 }
 
 .flex__item--left {
@@ -170,7 +171,7 @@ h3
 	position: relative;
 	overflow: hidden;
 	flex-direction: column;
-	padding-top: 160px;
+	padding-top: 8.333vw;
 	background-color: antiquewhite;
 }
 
@@ -179,10 +180,10 @@ h3
 	transform-origin: right center;
 	transition: transform 0.3s linear 0s;
 	opacity: 0;
-	padding-top: 120px; 
+	padding-top: 6.250vw; 
 	display: flex;
   flex-direction: column;
-	padding-left: 20px;
+	padding-left:1.042vw;
 }
 
 .flex--preStart .flex__item--left,
@@ -405,7 +406,7 @@ li a:after
 	color: #fff;
 	text-align: center;
 	border-radius: 0.313vw;
-	padding:0.208vw ;
+	padding: 0.208vw ;
 	
 	/* Position the tooltip */
 	position: absolute;
@@ -419,30 +420,31 @@ li a:after
 	transform: translateX(-10%);
 }
 
+
 .form {
   border-radius: 10px;
   display:flex;
   flex-direction: column;
-  padding: 20px;
-  margin-left: 210px;
-  line-height: 20px;
-  margin-top:-2%;
+  padding: 1.042vw;
+  margin-left: 10.938vw;
+  line-height: 1.042vw;
+  margin-top:0%;
 }
 .khung3
 {
-    width: 460x;
-	height: 120px;
-	margin-left: 230px;
-	margin-top:103px;
+	height: 6.250vw;
+	margin-left: 11.979vw;
+	margin-top:5.365vw;
 }
 input[type=text]{
-  width: 450px;
-  padding: 12px 20px;
+  width: 23.438vw;
+  padding: 0.625vw 1.042vw;
   margin: 5px 0;
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
-  height: 60px;
+  height: 3.125vw;
+  font-size:0.729vw;
 }
 
 input[type=submit] {
@@ -450,9 +452,10 @@ input[type=submit] {
   background-color: #4CAF50;
   color: black;
   padding: 14px 20px;
-  margin: 8px 0;
+  margin: 0.417vw 0;
   border: none;
   height: 60px;
+  font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
 }
 
 input[type=submit]:hover {
@@ -461,18 +464,21 @@ input[type=submit]:hover {
 .select {
   color: #8a8a8a;
   font-weight: 300;
-  padding: 20px;
+  padding: 1.042vw;
 	color:black;
+	font-size:0.729vw;
+  font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
 }
 select{
-	width: 120px;
-  padding: 12px 20px;
+	width: 6.250vw;
+  padding: 0.625vw 1.042vw;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
-  height: 60px;
+  height: 3.125vw;
   color:black;
+  
 }
 
 .content-right
@@ -491,15 +497,15 @@ button {
   border: 1px solid #ccc;
   overflow: hidden;
 	color: #000;
-	font-size: 18px;
+	font-size: 0.729vw;
 	background: none;
 	cursor: pointer;
-	padding: 20px 80px;
+	padding: 1.042vw 4.167vw;
 	display: inline-block;
 	outline: none;
-	top: 50px;
+	top: 2.604vw;
 	font-family: "iCiel Mont";
-	left:100px; 
+	left:5.208vw; 
 	font-weight: 600;
 	-webkit-transition: all 0.3s cubic-bezier(0.770, 0.000, 0.175, 1.000);
 	transition: all 0.3s cubic-bezier(0.770, 0.000, 0.175, 1.000);
@@ -692,14 +698,23 @@ button:hover:after,
 		  width:100vh;
 		  height:90vh;
 		  padding-bottom:25vh;
-		  padding-left:0;
+		  padding-top: 120px; .
+		  padding-left: -20%;
+
 	  }  
 	  .khung3
 	  {
-		  margin-left:15vh;
+		  margin-left:0;
 	  }
 	  .form {
-		  margin-left:13vh;}
+  border-radius: 10px;
+  display:flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-left: 210px;
+  line-height: 20px;
+  margin-top:-2%;
+}
 	  .slider__navi a {
 		  width: 30px;
 		  height:30px;
@@ -715,10 +730,183 @@ button:hover:after,
 		  position:fixed;
 	  }
 	  
+	  .form {
+  border-radius: 10px;
+  display:flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-left: 120px;
+  line-height: 20px;
+  margin-top:-2%;
+}
+.khung3
+{
+    width: 460x;
+	height: 120px;
+	margin-left: 140px;
+	margin-top:103px;
+	margi
+}
 	  
+	.text--sub {
+	font-size: 20px;
+	letter-spacing: 0.5rem;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	color: black;
+}
+
+.text--big {
+	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
+	font-size: 60px;
+	font-weight: 900;
+	line-height: 15px;
+  margin-left: -8px;
+}
+.text--bignhahat {
+	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
+	font-size: 83px;
+	font-weight: 900;
+	line-height: 95px;
+  margin-left: -8px;
+	color:black;
+}
+.text--bigline {
+	font-family: "iCiel Mont Black";
+	font-size: 48px;
+	font-weight: 900;
+    margin-left: -8px;
+	letter-spacing: 16px;
+    color: white;
+	-webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black;
+}
+  
+.text--normal {
+	font-size: 15px;
+	font-family:"iCiel Mont";
+	font-weight: 500;
+	line-height: 10px;
+	margin-top: 25px;
+	color:black;
+}  
+	  input[type=text]{
+  width: 450px;
+  padding: 12px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  height: 60px;
+ font-size:14px;
+}
+
+input[type=submit] {
+  width: 450px;
+  background-color: #4CAF50;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  height: 60px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.select {
+  color: #8a8a8a;
+  font-weight: 300;
+  padding: 20px;
+	color:black;
+}
+select{
+	width: 120px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  height: 60px;
+  color:black;
+}
+button {
+  position: relative;
+ 
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+  border: 1px solid #ccc;
+  overflow: hidden;
+	color: #000;
+	font-size: 18px;
+	background: none;
+	cursor: pointer;
+	padding: 20px 80px;
+	display: inline-block;
+	outline: none;
+	top: 50px;
+	font-family: "iCiel Mont";
+	left:100px; 
+	font-weight: 600;
+	-webkit-transition: all 0.3s cubic-bezier(0.770, 0.000, 0.175, 1.000);
+	transition: all 0.3s cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}	  
 	  
-	  
-	  
+	.tooltiptext {
+	content: "ahihi";
+	visibility: visible;
+	opacity: 0;
+  	transition: 0.25s;
+	width: 80px;
+	background-color: orange;
+  	font-size: 13px;
+  	font-weight: bold;
+  	
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 4px ;
+	
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	/* top: 3px; */
+	right: 125%;
+  }
+.slide-nav:hover .tooltiptext{
+	visibility: visible;
+	opacity: 1;
+	transform: translateX(-10%);
+}
+  
+	  .slider__navi {
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	z-index: 9;
+}
+
+.slider__navi a {
+	display: block;
+	height: 30px;
+	width: 30px;
+  border-radius: 50px;
+	margin: 20px 0;
+	/* text-indent: -9999px; */
+	box-shadow: none;
+	border: none;
+	background: rgba(0,0,0,0.2);
+}
+
+.slider__navi a.active {
+	background: orange;
+	
+}
 	  
 	  
 }

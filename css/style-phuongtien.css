@@ -621,11 +621,11 @@ hr.new2
 	text-align:center;
 	opacity: 0.8;
   }
- 
+  
   .sidenav a {
-	padding: 1.042vw 0.417vw 0.417vw 1.667vw;
+	padding: 20px 8px 8px 32px;
 	text-decoration: none;
-	font-size: 2.083vw;
+	font-size: 40px;
 	font-family: "iCiel Mont";
 	font-weight: 800;
 	color: #254B4B;
@@ -643,10 +643,11 @@ hr.new2
   .sidenav .closebtn {
 	position: absolute;
 	top: 0;
-	right: 1.302vw;
-	font-size: 1.875vw;
-	margin-left: 2.604vw;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
   }
+	
 	
 #load-block {
     display:block;
@@ -723,8 +724,8 @@ hr.new2
 
 
  @media screen and (max-height: 1366px) {
-	.sidenav {padding-top: 0.781vw;}
-	.sidenav a {font-size: 0.938vw;}
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
   }
 @media screen and (max-width: 1024px) {
 	.menu {display: none;}
@@ -777,12 +778,9 @@ padding-top:12vh;}
 .center {
 	position: relative;
 	top: 5%;
-	left: 55%;
+	left: 57%;
 	transform: translate(-50%, -50%);
 }
-	.linebox{
-		margin-left:1.563vw;
-	}	
 	
 .text--big2 {
 	margin-left:1.563vw;
@@ -800,11 +798,6 @@ padding-top:12vh;}
 	{
 		position:fixed;
 	}
-	.slider__navi a {
-	height: 1.563vw;
-	width: 1.563vw;
-	border-radius:2.604vw;
-	}
 	
 .flex_page_1 {
 	overflow: hidden;
@@ -812,4 +805,172 @@ padding-top:12vh;}
 	.flex__content{
 	margin-bottom:40%;
 }
+	
+	.text--sub {
+	font-size: 12px;
+	letter-spacing: 0.5rem;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+.text--big {
+	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
+	font-size: 83px;
+	font-weight: 900;
+	line-height: 93px;
+  margin-left: -8px;
+	color:black;
+}
+.text--big2 {
+	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
+	font-size: 70px;
+	font-weight:800;
+	line-height: 70px;
+	margin-left:40px;
+	margin-bottom:20px;
+	color:black;
+}
+.text--bignhahat {
+	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
+	font-size: 83px;
+	font-weight: 900;
+	line-height:93px;
+  margin-left: -8px;
+	color:black;
+}
+.text--bigline {
+	font-family: "iCiel Mont Black";
+	font-size: 48px;
+	font-weight: 900;
+    margin-left: -8px;
+	letter-spacing: 16px;
+    color: white;
+	-webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black;
+}
+  
+.text--normal {
+	font-size: 14px;
+	font-family: "iCiel Mont";
+	font-weight: 420;
+	line-height: 22px;
+	margin-top: 30px;
+	color:black;
+}
+.text--normal2 {
+	font-size: 14px;
+	font-family: "iCiel Mont";
+	font-weight: 420;
+	line-height: 22px;
+	margin-right:120px;
+	margin-left:50px;
+	color:black;
+}
+	button {
+	font-family: inherit;
+	font-size: inherit;
+}
+
+.button {
+	position: relative;
+	height: 60px;
+	width: 300px;
+	background-color: transparent;
+	border: 1px solid #000000;
+	color:black;
+	cursor: pointer;
+	transition: color 150ms cubic-bezier(0.1, 0.7, 0.6, 0.9); 
+	color: black;
+	font-weight: 700;
+	font-family: "iCiel Mont";
+	font-size:14px;
+}
+	.slider__navi {
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	z-index: 9;
+}
+
+.slider__navi a {
+	display: block;
+	height: 30px;
+	width: 30px;
+  border-radius: 50px;
+	margin: 20px 0;
+	/* text-indent: -9999px; */
+	box-shadow: none;
+	border: none;
+	background: rgba(0,0,0,0.2);
+}
+
+.slider__navi a.active {
+	background: orange;
+	
+}
+
+	.circle {
+    position: absolute;
+    color: black;
+	border: 1px #CD6343;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    line-height: 18px;
+    font-size: 20px;
+	font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    z-index: 999;
+	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
+}
+.linebox
+{
+	width: 500px;
+	height: 60px;
+	margin-left:45px;
+	display: flex;
+	flex-direction:row;
+	 align-items: center;
+}
+	hr.new2
+{
+	border-top: 1px solid black;
+	margin-left:30px;
+	margin-bottom:30px;
+}
+	.flex__content {
+	margin-left: 80px;
+	width: 55%;
+	opacity: 1;
+	transform: translate3d(0,0,0);
+	transition: transform 0.2s linear 0.2s, opacity 0.1s linear 0.2s;
+}
+.tooltiptext {
+	content: "ahihi";
+	visibility: visible;
+	opacity: 0;
+  	transition: 0.25s;
+	width: 80px;
+	background-color: orange;
+  	font-size: 13px;
+  	font-weight: bold;
+  	
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 4px ;
+	
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	/* top: 3px; */
+	right: 125%;
+  }
+	
 }

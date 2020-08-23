@@ -29,6 +29,7 @@ body
 	padding: 0px;
 	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
 	overflow: hidden;
+	font-size:0.833vw;
 }
 
 .container
@@ -80,7 +81,7 @@ ul
   letter-spacing: 0.208vw;
   padding-left: 1.563vw;
   padding-right:3.125vw;
-  padding-top: 1.563vw;
+  padding-top: 0.781vw;
   font-size: 0.729vw;
   margin: 
 }
@@ -122,7 +123,6 @@ li a:hover {
   font-weight: 900;
   letter-spacing:0.208vw;
   color: orange;
-  text-decoration: none;
   
   rect {
     stroke-width: 5;
@@ -147,7 +147,7 @@ li a:after
 	height:100vh;
 	background-color:antiquewhite;
 	float: left;
-	padding-top: 100px;
+	padding-top: 5.208vw;
 	position: relative;
 	
 	
@@ -169,8 +169,9 @@ li a:after
 	height: 100vh;
 	display: flex;
   flex-direction: column;
-  padding-top: 100px;
+  padding-top: 5.208vw;
 	position: relative;
+	padding-left:-10%;
 	
 }
 
@@ -194,7 +195,460 @@ li a:after
 	
 	
 }
+.khung8
+{
+	width:80%;
+	height:80%;
+	margin-left:-3%;
+	
+	
+}
 .khung1
+{
+	width: 23.958vw;
+	height: 22.917vw;
+	background-color: aliceblue;
+	margin-left: 22.917vw;
+	margin-top:100px;
+}
+.khung2
+{
+	width: 520px;
+	height: 100px;
+	margin-left: 10.938vw;
+	margin-top:1.563vw;
+	display: flex;
+    justify-content: center;
+	
+}
+.khunga
+{
+	width: 115px;
+	height: 100px;
+	background-color:aliceblue;
+	margin:auto; 
+}
+
+
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 0.781vw 1.042vw;
+  margin: 0.417vw 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
+}
+
+.input2 {
+  width: 100px;
+  height:45px;
+  padding: 10px 10px;
+  margin: 15px 0;
+  cursor: pointer;
+  font-size:14px;
+  margin-top:5.5%;
+  margin-left: 7%
+}
+
+
+.khung4
+{
+	width: 560px;
+	height: 150px;
+	margin-left: 11.979vw;
+	margin-top: 0.521vw;
+	display: flex;
+  flex-direction: row;
+	padding-right: 10px;
+	padding-top:10px;
+	
+}
+.khung4a
+{
+	width: 200px;
+	height: 100%;
+	
+	
+	line-height: 75px;
+}
+.khung4b
+{
+	width: 360px;
+	height: 100%;
+	
+	
+}
+
+
+.form {
+  border-radius: 100px;
+  padding: 10px;
+  line-height: 30px
+  
+ 
+}
+.khung3
+{
+    width: 460x;
+	height: 50px;
+	
+	margin-left: 11.979vw;
+	margin-top:5.365vw;
+	line-height: 20px;
+}
+.form2 {
+ 
+  background-color: white;
+  padding: 2.083vw;
+  margin-left: 10.208vw;
+  margin-top: 1.563vw;
+ width: 23.438vw;
+	
+}
+.khung5
+{
+    width: 460x;
+	height: 50px;
+	font-weight: 800;
+	margin-left: 11.979vw;
+	margin-top:1.042vw;
+	line-height: 20px;
+}
+.khung6
+{
+    width: 600px;
+	height: 79px;
+	
+	margin-left: 11.979vw;
+	margin-top:5px;
+	display: flex;
+	
+}
+.khung6a
+{
+    width: 110px;
+	height: 100%;
+	float: left;
+	line-height: 70px;
+}
+.khung6b
+{
+    width: 290px;
+	height: 100%;
+	float: left;
+	line-height: 5px;
+}
+.khung6c
+{
+    width: 100px;
+	height: 100%;
+	float: right;
+	line-height: 20px;
+}
+.form3 {
+  border-radius: 10px;
+  padding: 10px;
+ width: 270px;
+  font-family:"iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
+	
+}
+.form4 {
+  border-radius: 10px;
+  padding: 10px;
+ width: 100px;
+	
+}
+.khung7
+{
+    width: 500px;
+	height: 95px;
+	margin-left: 11.979vw;
+	line-height: 20px;
+	
+}
+
+.form5 {
+  display: flex;
+  justify-content: center;
+ width: 10.417vw;
+margin-left: 21.875vw;
+ padding-top:0.781vw;
+}
+
+.open-button {
+  color: none;
+  padding:0.833vw 1.042vw;
+  cursor: pointer;
+  opacity: 0.8;
+  position: absolute;
+  width: 10.417vw;
+	margin-top:1.042vw;
+  margin-left:7.813vw;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  z-index: 9;
+  top: 30%;
+  left:35%;
+}
+
+/* Add styles to the form container */
+.form-container {
+  width: 600px;
+  height: 400px;
+  padding: 10px;
+	border-radius: 50px;
+  background-color: white;
+	box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+
+.form-container .btn {
+  padding: 16px 20px;
+  cursor: pointer;
+  width: 40%;
+  height:50px; 
+  margin-bottom:10px;
+}
+
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  margin-left:120px;
+  margin-top:50px;
+  
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.form-containera
+{
+	width: 600px;
+	height:60%;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.form-containerb
+{
+	width: 600px;
+	height:40%;
+	flex-direction: row;
+	justify-content: center;
+	padding-left: 30px;
+}
+.button2
+{
+  cursor: pointer;
+  width: 40%;
+  height:50px; 
+  margin-bottom:10px;
+  opacity: 0.8;
+  margin-left:420px;
+  margin-top:50px;
+   padding: 16px 20px;
+  
+}
+button {
+  position: absolute;
+  
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+  border: 1px solid black;
+  overflow: hidden;
+	color: #000;
+	font-size: 0.729vw;
+	background: none;
+	cursor: pointer;
+	padding: 1.042vw 4.167vw;
+	display: inline-block;
+	outline: none;
+	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
+	font-weight: 500;
+	-webkit-transition: all 0.3s cubic-bezier(0.770, 0.000, 0.175, 1.000);
+	transition: all 0.3s cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+button:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s cubic-bezier(0.770, 0.000, 0.175, 1.000);
+	transition: all 0.3s cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  width: 0%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: orange;
+}
+
+button:hover,
+button:active {
+	color: white;
+}
+
+button:hover:after,
+.button:active:after {
+	width: 100%;
+}
+.content-right
+{
+	width: 50%;
+	height: 100%;
+	background-color:bisque;
+	position: absolute;
+	left:50%;
+}
+h1
+{
+	font-weight:bold;
+	font-size:16px;
+}
+h2
+{
+	font-weight: 800;
+	font-size:40px;
+	margin-top:10%;
+}
+
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	background-color:antiquewhite;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 20vh;
+	text-align:center;
+	opacity: 0.8;
+  }
+  
+  .sidenav a {
+	padding: 20px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 40px;
+	font-family: "iCiel Mont";
+	font-weight: 800;
+	color: #254B4B;
+	display: block;
+	transition: 0.3s;
+	
+  
+  }
+  
+  .sidenav a:hover{
+	color: orange;
+	 text-decoration: none;
+  }
+  
+  .sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+  }
+ 
+@font-face {
+  font-family:"iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
+  src:url( "../[iCiel] Mont/iCielMont-Regular.otf");
+}
+@media screen and (max-height: 1366px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+  }
+
+  @media only screen and (max-width: 1024px) {
+	.menu{
+		display: none;
+	}
+	.menu-ipad{
+		display: block;
+	}
+	  body
+	  {
+		  width: auto;
+		  height:auto;
+		  overflow-y: auto;
+		  overflow-x: hidden;
+		  font-size:16px;
+	  }
+	  .noidung{
+		  width: auto;
+		  height:auto;
+		  display: flex;
+		  flex-direction: column;
+	  }
+	 .noidung1
+	  {
+		  width: 100%;
+		  height:100vh;
+		  float:none;
+	  }
+	  .noidung2
+	  {
+		  width: 100%;
+		  height:85vh;
+		  float:none;
+		  padding-top:15vh;
+	  }
+	  .form2
+	  {
+		  margin-left:12vh;
+		  margin-top:6vh;
+	  }
+	  .khung3
+	  {
+		  margin-left:11vh;
+	  }
+	  .khung4
+	  {
+		  margin-left:11vh;
+	  }
+	  .khung5
+	  {
+		  margin-left:11vh;
+	  }
+	  .khung6
+	  {
+		  margin-left:11vh;
+	  }
+	  .khung7{
+		  margin-left:11vh;
+	  }
+	  .form5{
+		  margin-left:24vh;
+	  }
+	  .open-button
+	  {
+		  margin-left:24vh;
+		  margin-top:2vh;
+
+	  }
+	  .form-popup
+	  {
+		  left:10%;
+	  }
+		.khung1
 {
 	width: 460px;
 	height: 440px;
@@ -249,7 +703,7 @@ input[type=text], select {
 {
 	width: 560px;
 	height: 150px;
-	margin-left: 230px;
+	margin-left:11vh;
 	margin-top: 10px;
 	display: flex;
   flex-direction: row;
@@ -286,7 +740,7 @@ input[type=text], select {
     width: 460x;
 	height: 50px;
 	
-	margin-left: 230px;
+	margin-left:11vh;
 	margin-top:103px;
 	line-height: 20px;
 }
@@ -294,9 +748,9 @@ input[type=text], select {
  
   background-color: white;
   padding: 40px;
-  margin-left: 196px;
-  margin-top: 30px;
- width: 450px;
+  width: 450px;
+  margin-left:12vh;
+  margin-top:6vh;
 	
 }
 .khung5
@@ -304,7 +758,7 @@ input[type=text], select {
     width: 460x;
 	height: 50px;
 	font-weight: 800;
-	margin-left: 230px;
+	margin-left:11vh;
 	margin-top:20px;
 	line-height: 20px;
 }
@@ -313,7 +767,7 @@ input[type=text], select {
     width: 600px;
 	height: 79px;
 	
-	margin-left: 230px;
+	margin-left:11vh;
 	margin-top:5px;
 	display: flex;
 	
@@ -356,7 +810,7 @@ input[type=text], select {
 {
     width: 500px;
 	height: 95px;
-	margin-left: 230px;
+	margin-left:11vh;
 	line-height: 20px;
 	
 }
@@ -365,7 +819,7 @@ input[type=text], select {
   display: flex;
   justify-content: center;
  width: 200px;
-margin-left: 420px;
+margin-left:24vh;
  padding-top:15px;
 }
 
@@ -377,7 +831,7 @@ margin-left: 420px;
   position: absolute;
   width: 200px;
 	margin-top:20px;
-  margin-left:150px;
+  margin-left:24vh;
 }
 
 /* The popup form - hidden by default */
@@ -386,7 +840,7 @@ margin-left: 420px;
   position: fixed;
   z-index: 9;
   top: 30%;
-  left:35%;
+ left:10%;
 }
 
 /* Add styles to the form container */
@@ -517,126 +971,5 @@ h2
 	font-size:40px;
 	margin-top:10%;
 }
-
-.sidenav {
-	height: 100%;
-	width: 0;
-	position: fixed;
-	z-index: 10;
-	top: 0;
-	left: 0;
-	background-color:antiquewhite;
-	overflow-x: hidden;
-	transition: 0.5s;
-	padding-top: 20vh;
-	text-align:center;
-	opacity: 0.8;
-  }
   
-  .sidenav a {
-	padding: 20px 8px 8px 32px;
-	text-decoration: none;
-	font-size: 40px;
-	font-family: "iCiel Mont";
-	font-weight: 800;
-	color: #254B4B;
-	display: block;
-	transition: 0.3s;
-	
-  
-  }
-  
-  .sidenav a:hover{
-	color: orange;
-	 text-decoration: none;
-  }
-  
-  .sidenav .closebtn {
-	position: absolute;
-	top: 0;
-	right: 25px;
-	font-size: 36px;
-	margin-left: 50px;
-  }
- 
-@font-face {
-  font-family:"iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
-  src:url( "../[iCiel] Mont/iCielMont-Regular.otf");
-}
-@media screen and (max-height: 1366px) {
-	.sidenav {padding-top: 15px;}
-	.sidenav a {font-size: 18px;}
-  }
-
-  @media only screen and (max-width: 1024px) {
-	.menu{
-		display: none;
-	}
-	.menu-ipad{
-		display: block;
-	}
-	  body
-	  {
-		  width: auto;
-		  height:auto;
-		  overflow-y: auto;
-		  overflow-x: hidden;
-	  }
-	  .noidung{
-		  width: auto;
-		  height:auto;
-		  display: flex;
-		  flex-direction: column;
-	  }
-	 .noidung1
-	  {
-		  width: 100%;
-		  height:100vh;
-		  float:none;
-	  }
-	  .noidung2
-	  {
-		  width: 100%;
-		  height:85vh;
-		  float:none;
-		  padding-top:15vh;
-	  }
-	  .form2
-	  {
-		  margin-left:12vh;
-		  margin-top:6vh;
-	  }
-	  .khung3
-	  {
-		  margin-left:11vh;
-	  }
-	  .khung4
-	  {
-		  margin-left:11vh;
-	  }
-	  .khung5
-	  {
-		  margin-left:11vh;
-	  }
-	  .khung6
-	  {
-		  margin-left:11vh;
-	  }
-	  .khung7{
-		  margin-left:11vh;
-	  }
-	  .form5{
-		  margin-left:24vh;
-	  }
-	  .open-button
-	  {
-		  margin-left:24vh;
-		  margin-top:2vh;
-
-	  }
-	  .form-popup
-	  {
-		  left:10%;
-	  }
-		  
 	  } 
