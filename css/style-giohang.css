@@ -52,9 +52,9 @@ header{
 .logo
 {
 	width: 20%;
-	height: 70px;
-	margin-left: 60px;
-	padding-top: 30px;
+	height: 3.646vw;
+	margin-left: 3.125vw;
+	padding-top: 1.563vw;
 	float: left; 
 
 	
@@ -245,10 +245,10 @@ input[type=text], select {
 .input2 {
   width: 100px;
   height:45px;
-  padding: 10px 10px;
-  margin: 15px 0;
+  padding: 0.521vw 0.521vw;
+  margin: 0.781vw 0;
   cursor: pointer;
-  font-size:14px;
+  font-size:0.729vw;
   margin-top:5.5%;
   margin-left: 7%
 }
@@ -272,7 +272,7 @@ input[type=text], select {
 	height: 100%;
 	
 	
-	line-height: 75px;
+	line-height: 3.906vw;
 }
 .khung4b
 {
@@ -285,8 +285,8 @@ input[type=text], select {
 
 .form {
   border-radius: 100px;
-  padding: 10px;
-  line-height: 30px
+  padding: 0.521vw;
+  line-height: 1.563vw
   
  
 }
@@ -343,10 +343,10 @@ input[type=text], select {
 }
 .khung6c
 {
-    width: 100px;
+    width: 5.208vw;
 	height: 100%;
 	float: right;
-	line-height: 20px;
+	line-height: 1.042vw;
 }
 .form3 {
   border-radius: 10px;
@@ -603,6 +603,7 @@ h2
 		  width: 100%;
 		  height:100vh;
 		  float:none;
+		  padding-left:-5%;
 	  }
 	  .noidung2
 	  {
