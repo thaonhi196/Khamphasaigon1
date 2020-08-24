@@ -201,7 +201,7 @@ nav.dots a.active {
   padding: 0.521vw;
 	font-size: 0.625vw;
   font-weight: 500;
-  font-family:IcielMontSemibold;
+  font-family: IcielMontSemibold;
 	color:white;
 	left:-8%;
 	top:2%;
@@ -1473,7 +1473,7 @@ hr.new1
 		font-size:16px;
 	}
 	h3{
-		font-size:12px;
+		font-size:8px;
 	}
 	
 	.noidung1{
@@ -1791,13 +1791,11 @@ h3
 {
 	color:white;
 	font-weight:300;
-	font-size: 16px;
-	line-height:20px;
 }
 h1
 {
 	color:white;
-	font-size:40px;
+	font-size:20px;
 	line-height:0;
 	margin-bottom: 15px;
 }
