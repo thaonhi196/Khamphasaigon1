@@ -244,8 +244,8 @@ input[type=text], select {
 }
 
 .input2 {
-  width: 100px;
-  height:45px;
+  width: 5.208vw;
+  height:2.344vw;
   padding: 0.521vw 0.521vw;
   margin: 0.781vw 0;
   cursor: pointer;
