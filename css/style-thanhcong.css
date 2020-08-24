@@ -340,12 +340,11 @@ header{
 	width: 70%;
 	height: 100%;
 	float: right;
-	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
 }
 .menu-ipad
 {
 	height: 100%;
-	float: right;
+	margin-left:50%;
 	display: none;
 	padding: 1.563vw 2.604vw 0px 0px;
 }
@@ -357,7 +356,7 @@ ul
   padding-right:3.125vw;
   padding-top: 1.563vw;
   font-size: 0.729vw;
-  margin: 
+  font-family: IcielMontSemibold;
 }
 
 li {
@@ -398,6 +397,7 @@ li a:hover {
   letter-spacing:0.208vw;
   color: orange;
   text-decoration: none;
+  font-family:IcielMontBlack;
   
   rect {
     stroke-width: 5;
@@ -621,17 +621,16 @@ hr.new2
 	text-align:center;
 	opacity: 0.8;
   }
- 
+  
   .sidenav a {
-	padding: 1.042vw 0.417vw 0.417vw 1.667vw;
+	padding: 20px 8px 8px 32px;
 	text-decoration: none;
-	font-size: 2.083vw;
-	font-family: "iCiel Mont";
+	font-size: 40px;
+	font-family: IcielMontBold;
 	font-weight: 800;
 	color: #254B4B;
 	display: block;
 	transition: 0.3s;
-	
   
   }
   
@@ -643,9 +642,9 @@ hr.new2
   .sidenav .closebtn {
 	position: absolute;
 	top: 0;
-	right: 1.302vw;
-	font-size: 1.875vw;
-	margin-left: 2.604vw;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
   }
 	
 #load-block {
@@ -716,15 +715,33 @@ hr.new2
 
 
 @font-face {
-  font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
+  font-family: IcielMontBold;
+  src:url( "../[iCiel] Mont/iCielMont-Bold.otf");
+}
+@font-face {
+  font-family: IcielMontBlack;
+  src:url( "../[iCiel] Mont/iCielMont-Black.otf");
+}
+@font-face {
+  font-family: IcielMontRegular;
   src:url( "../[iCiel] Mont/iCielMont-Regular.otf");
+}
+@font-face{
+  font-family: IcielMontSemibold;
+  src:url("../[iCiel] Mont/iCielMont-SemiBold.otf")
+}
+@font-face{
+	font-family: IcielMontBook;
+	src: url( "../[iCiel] Mont/iCielMont-Book.otf")}
+@font-face{
+	font-family: IcielMontLight;
+	src:url("../[iCiel] Mont/iCielMont-Light.otf")
 }
 
 
-
  @media screen and (max-height: 1366px) {
-	.sidenav {padding-top: 0.781vw;}
-	.sidenav a {font-size: 0.938vw;}
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
   }
 @media screen and (max-width: 1024px) {
 	.menu {display: none;}

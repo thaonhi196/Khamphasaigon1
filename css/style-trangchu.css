@@ -28,7 +28,7 @@
 
 
 html {
-  font-family: 'iCiel Mont', 'iCiel Mont Black', 'iCiel Mont Bold', 'iCiel Mont Heavy', 'iCiel Mont SemiBold', 'iCiel Mont Light', 'iCiel Mont Book';
+  font-family: IcielMontRegular;
   font-smooth: auto;
   font-weight: 300;
   line-height: 1.5;
@@ -170,7 +170,7 @@ nav.dots a.active {
   border-radius: 0.260vw;
   font-size: 0.625vw;
   font-weight: bold;
-  font-family:"iCiel Mont";
+  font-family:IcielMontBold;
   transform: translateX(-10%);
 	justify-content: center;
 	display:flex;
@@ -201,7 +201,7 @@ nav.dots a.active {
   padding: 0.521vw;
 	font-size: 0.625vw;
   font-weight: 500;
-  font-family:"iCiel Mont";
+  font-family:IcielMontSemibold;
 	color:white;
 	left:-8%;
 	top:2%;
@@ -261,7 +261,7 @@ nav.dots a.active {
   margin-left: 0.521vw;
   font-size:0.625vw;
   font-weight:500;
-	font-family: "iCiel Mont";
+	font-family: IcielMontSemibold;
   line-height: 0.677vw;
 }
 
@@ -290,7 +290,7 @@ nav.dots a.active {
   margin-left: 10px;
   font-size:0.625vw;
   font-weight:500;
-	font-family: "iCiel Mont";
+	font-family:IcielMontSemibold;
 	line-height: 0.677vw;
 }
 
@@ -319,7 +319,7 @@ nav.dots a.active {
   margin-left: 0.521vw;
   font-size:0.625vw;
   font-weight:500;
-	font-family: "iCiel Mont";
+	font-family:IcielMontSemibold;
   line-height: 0.677vw;
 }
 
@@ -352,7 +352,7 @@ header{
 	width: 70%;
 	height: 100%;
 	float: right;
-	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
+	
 }
 .menu-ipad
 {
@@ -369,7 +369,7 @@ ul
   padding-right:3.125vw;
   padding-top: 0.781vw;
   font-size: 0.729vw;
-  margin: 
+  font-family:IcielMontSemibold;
 }
 
 li {
@@ -409,6 +409,7 @@ li a:hover {
   font-weight: 900;
   letter-spacing:0.208vw;
   color: orange;
+  font-family: IcielMontBlack;	
   
   rect {
     stroke-width: 5;
@@ -442,8 +443,7 @@ li a:hover {
 	background-color: azure;
 	margin:21.875vw;
 }
-@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
-/* the important bits */
+
 nav.box li {
   -webkit-perspective: 80vh;
           perspective: 80vh;
@@ -778,7 +778,7 @@ video {
   overflow: hidden;
 	color: #000;
 	font-size: 0.625vw;
-	font-family: "iCiel Mont SemiBold";
+	font-family: IcielMontSemibold;
 	background: none;
 	cursor: pointer;
 	padding: 2vh 5vh;
@@ -856,7 +856,7 @@ video {
 	padding:1.042vw;
 	padding-top: 4.167vw;
 	align-items: flex-start;
-	font-family: "iCiel Mont";
+	font-family: IcielMontRegular;
 	font-weight:400;
 	font-size: 1.042vw;
 }
@@ -876,7 +876,7 @@ input[type=text]{
   height: 3.125vw;
   color: #D09185;
   font-size:0.729vw;
-  font-family:"iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
+  font-family:IcielMontRegular;
   
 }
 
@@ -902,7 +902,7 @@ textarea {
   margin-top:0.5vh;
   color: #D09185;
   font-size:0.729vw;
-  font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
+  font-family: IcielMontRegular;
 }
 textarea:focus {
 	border: 0.052vw solid #D8573E;
@@ -916,7 +916,7 @@ textarea:focus {
   overflow: hidden;
 	color: #D8573E;
 	font-size: 0.729vw;
-	font-family: "iCiel Mont SemiBold";
+	font-family: IcielMontBold;
 	background: none;
 	cursor: pointer;
 	padding: 2vh 3vh;
@@ -952,7 +952,7 @@ textarea:focus {
 	width: 100%;
 }
 .text--big {
-	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
+	font-family:IcielMontBlack;
 	font-size: 70px;
 	font-weight: 900;
 	line-height: 20px;
@@ -960,7 +960,7 @@ textarea:focus {
 	color:black;
 }
 .text--bigline {
-	font-family: "iCiel Mont Black";
+	font-family: IcielMontBlack;
 	font-size: 48px;
 	font-weight: 900;
     margin-left: -8px;
@@ -971,33 +971,30 @@ textarea:focus {
 }
 .text--normal {
 	font-size: 20px;
-	font-family: "iCiel Mont";
+	font-family: IcielMontRegular;
 	font-weight: 420;
 	color:white;
 }
 .text--sub {
 	font-size:20px;
-	font-family: "iCiel Mont SemiBold";
+	font-family:IcielMontBold;
 	letter-spacing: 0.5rem;
 	text-transform: uppercase;
 	line-height:0;
 	left: 21vh;
 }
-@font-face {
-  font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
-  src:url( "../[iCiel] Mont/iCielMont-Regular.otf");
-}
+
 h3
 {
 	color:white;
-	font-family:"iCiel Mont";
+	font-family:IcielMontBook;
 	font-weight:300;
 	font-size: 0.833vw;
 	line-height:1.042vw;
 }
 h1
 {
-	font-family:"iCiel Mont";
+	font-family:IcielMontBlack;
 	color:white;
 	font-size:2.083vw;
 	line-height:0;
@@ -1008,10 +1005,11 @@ h2 {
   padding: 0;
   color: white;
   line-height:1.042vw;
+  font-family: IcielMontBold
 }
 
 .text--big1 {
-	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
+	font-family:IcielMontBlack;
 	font-size: 4.688vw;
 	font-weight: 900;
 	line-height: 4.844vw;
@@ -1020,7 +1018,7 @@ h2 {
 	margin-bottom:2vh;
 }
 .text--big2 {
-	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
+	font-family:IcielMontBlack;
 	font-size:4.479vw;
 	font-weight: 900;
 	line-height: 6vh;
@@ -1029,7 +1027,7 @@ h2 {
 }
 
 .text--bigline {
-	font-family: "iCiel Mont Black";
+	font-family:IcielMontBlack;
 	font-size: 4.688vw;
 	font-weight: 900;
     margin-left: 3.125vw;
@@ -1039,7 +1037,7 @@ h2 {
 }
 .text--normal2 {
 	font-size: 0.729vw;
-	font-family: "iCiel Mont";
+	font-family: IcielMontRegular;
 	font-weight: 450;
 	bottom:0;
 	left: 21vh;
@@ -1159,7 +1157,7 @@ hr.new1
 	color: #000;
 	font-size: 0.729vw;
 	font-weight: 700;
-	font-family:"iCiel Mont";
+	font-family:IcielMontBold;
 	background: none;
 	cursor: pointer;
 	padding: 2vh 3vh;
@@ -1218,7 +1216,7 @@ hr.new1
 	padding: 20px 8px 8px 32px;
 	text-decoration: none;
 	font-size: 40px;
-	font-family: "iCiel Mont";
+	font-family: IcielMontBold;
 	font-weight: 800;
 	color: #254B4B;
 	display: block;
@@ -1352,22 +1350,42 @@ hr.new1
     100%{opacity:1;}
   }
 
-
-
+@font-face {
+  font-family: IcielMontBold;
+  src:url( "../[iCiel] Mont/iCielMont-Bold.otf");
+}
+@font-face {
+  font-family: IcielMontBlack;
+  src:url( "../[iCiel] Mont/iCielMont-Black.otf");
+}
+@font-face {
+  font-family: IcielMontRegular;
+  src:url( "../[iCiel] Mont/iCielMont-Regular.otf");
+}
+@font-face{
+  font-family: IcielMontSemibold;
+  src:url("../[iCiel] Mont/iCielMont-SemiBold.otf")
+}
+@font-face{
+	font-family: IcielMontBook;
+	src: url("../[iCiel] Mont/iCielMont-Book.otf")
+}
 @media screen and (max-height: 1366px) {
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
   }
-@media screen and (max-width: 1024px) {
-	.menu {display: none;}
+
+  @media only screen and (max-width: 1024px) {
+	.menu{
+		display: none;
+	}
 	.menu-ipad{
 		display: block;
 	}
-}
-@media screen and (max-width: 1024px) {
 	body
 	{
 		overflow: hidden;
+		font-family: IcielMontRegular;
 	}
 	
 	#video1
@@ -1519,7 +1537,7 @@ hr.new1
   border-radius: 5px;
   font-size: 12px;
   font-weight: bold;
-  font-family:"iCiel Mont";
+  font-family:IcielMontRegular;
   transform: translateX(-10%);
 	justify-content: center;
 	display:flex;
@@ -1610,7 +1628,7 @@ hr.new1
   margin-left: 10px;
   font-size:12px;
   font-weight:500;
-	font-family: "iCiel Mont";
+	font-family: IcielMontRegular;
   line-height: 13px;
 }
 
@@ -1639,7 +1657,6 @@ hr.new1
   margin-left: 10px;
   font-size:12px;
   font-weight:500;
-	font-family: "iCiel Mont";
 	line-height: 13px;
 }
 
@@ -1668,7 +1685,6 @@ hr.new1
   margin-left: 10px;
   font-size:12px;
   font-weight:500;
-	font-family: "iCiel Mont";
   line-height: 13px;
 }
 
@@ -1684,7 +1700,6 @@ hr.new1
   overflow: hidden;
 	color: #000;
 	font-size: 12px;
-	font-family: "iCiel Mont SemiBold";
 	background: none;
 	cursor: pointer;
 	padding: 2vh 5vh;
@@ -1766,7 +1781,6 @@ textarea:focus {
 }
 	
 .text--big {
-	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
 	font-size: 70px;
 	font-weight: 900;
 	line-height: 20px;
@@ -1776,14 +1790,12 @@ textarea:focus {
 h3
 {
 	color:white;
-	font-family:"iCiel Mont";
 	font-weight:300;
 	font-size: 16px;
 	line-height:20px;
 }
 h1
 {
-	font-family:"iCiel Mont";
 	color:white;
 	font-size:40px;
 	line-height:0;
@@ -1797,7 +1809,6 @@ h2 {
 }
 
 .text--big1 {
-	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
 	font-size: 90px;
 	font-weight: 900;
 	line-height: 93px;
@@ -1806,7 +1817,6 @@ h2 {
 	margin-bottom:2vh;
 }
 .text--big2 {
-	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
 	font-size: 86px;
 	font-weight: 900;
 	line-height: 6vh;
@@ -1816,7 +1826,6 @@ h2 {
 	
 	.text--normal2 {
 	font-size: 14px;
-	font-family: "iCiel Mont";
 	font-weight: 450;
 	bottom:0;
 	left: 21vh;
@@ -1845,7 +1854,6 @@ hr.new1
 	color: #000;
 	font-size: 14px;
 	font-weight: 700;
-	font-family:"iCiel Mont";
 	background: none;
 	cursor: pointer;
 	padding: 2vh 3vh;
@@ -1892,7 +1900,6 @@ hr.new1
   overflow: hidden;
 	color: #D8573E;
 	font-size: 14px;
-	font-family: "iCiel Mont SemiBold";
 	background: none;
 	cursor: pointer;
 	padding: 2vh 3vh;

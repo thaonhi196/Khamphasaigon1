@@ -62,7 +62,7 @@ body {
 	font-size: 100%;
 	font-weight: 400;
 	min-height: 100vh;
-	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
+	font-family: IcielMontRegular;
 	overflow: hidden; 
 	color:black;
 }
@@ -100,17 +100,18 @@ body {
 	text-transform: uppercase;
 	margin-bottom: 0.521vw;
 	color: black;
+	font-family: IcielMontRegular;
 }
 
 .text--big {
-	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
+	font-family: IcielMontBlack;
 	font-size: 3.125vw;
 	font-weight: 900;
 	line-height: 0.781vw;
   margin-left: -8px;
 }
 .text--bignhahat {
-	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
+	font-family: IcielMontBold;
 	font-size: 83px;
 	font-weight: 900;
 	line-height: 95px;
@@ -118,7 +119,7 @@ body {
 	color:black;
 }
 .text--bigline {
-	font-family: "iCiel Mont Black";
+	font-family: IcielMontBold;
 	font-size: 48px;
 	font-weight: 900;
     margin-left: -8px;
@@ -130,8 +131,8 @@ body {
   
 .text--normal {
 	font-size: 0.781vw;
-	font-family:"iCiel Mont";
-	font-weight: 500;
+	font-family:IcielMontSemibold;
+	font-weight: 700;
 	line-height: 0.521vw;
 	margin-top: 1.302vw;
 	color:black;
@@ -154,7 +155,7 @@ body {
 }
 h3
 {
-	font-family: "iCiel Mont";
+	font-family: IcielMontSemibold; 
 	font-size:1.302vw;
 }
 
@@ -321,12 +322,12 @@ header{
 	width: 70%;
 	height: 100%;
 	float: right;
-	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
+	
 }
 .menu-ipad
 {
 	height: 100%;
-	float: right;
+	float:right; 
 	display: none;
 	padding: 1.563vw 2.604vw 0px 0px;
 }
@@ -338,7 +339,7 @@ ul
   padding-right:3.125vw;
   padding-top: 1.563vw;
   font-size: 0.729vw;
-  margin: 
+  font-family: IcielMontSemibold;
 }
 
 li {
@@ -379,6 +380,7 @@ li a:hover {
   letter-spacing:0.208vw;
   color: orange;
   text-decoration: none;
+  font-family: IcielMontBlack;
   
   rect {
     stroke-width: 5;
@@ -387,6 +389,7 @@ li a:hover {
     transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
   }
 }
+
 
 li a:after
 {
@@ -398,7 +401,7 @@ li a:after
 	visibility: visible;
 	opacity: 0;
   	transition: 0.25s;
-	width: 4.167vw;
+	width: 4.567vw;
 	background-color: orange;
   	font-size: 0.677vw;
   	font-weight: bold;
@@ -413,6 +416,7 @@ li a:after
 	z-index: 1;
 	/* top: 3px; */
 	right: 125%;
+	font-family: IcielMontBold;
   }
 .slide-nav:hover .tooltiptext{
 	visibility: visible;
@@ -445,6 +449,7 @@ input[type=text]{
   box-sizing: border-box;
   height: 3.125vw;
   font-size:0.729vw;
+  font-family: IcielMontBook;
 }
 
 input[type=submit] {
@@ -455,7 +460,7 @@ input[type=submit] {
   margin: 0.417vw 0;
   border: none;
   height: 60px;
-  font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
+  font-family: IcielMontBook;
 }
 
 input[type=submit]:hover {
@@ -467,7 +472,7 @@ input[type=submit]:hover {
   padding: 1.042vw;
 	color:black;
 	font-size:0.729vw;
-  font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
+  font-family: IcielMontBook;
 }
 select{
 	width: 6.250vw;
@@ -504,7 +509,7 @@ button {
 	display: inline-block;
 	outline: none;
 	top: 2.604vw;
-	font-family: "iCiel Mont";
+	font-family: IcielMontBold;
 	left:5.208vw; 
 	font-weight: 600;
 	-webkit-transition: all 0.3s cubic-bezier(0.770, 0.000, 0.175, 1.000);
@@ -554,7 +559,7 @@ button:hover:after,
 	padding: 20px 8px 8px 32px;
 	text-decoration: none;
 	font-size: 40px;
-	font-family: "iCiel Mont";
+	font-family: IcielMontBold;
 	font-weight: 800;
 	color: #254B4B;
 	display: block;
@@ -653,15 +658,34 @@ button:hover:after,
 
 
  @font-face {
-  font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
+  font-family: IcielMontBold;
+  src:url( "../[iCiel] Mont/iCielMont-Bold.otf");
+}
+@font-face {
+  font-family: IcielMontBlack;
+  src:url( "../[iCiel] Mont/iCielMont-Black.otf");
+}
+@font-face {
+  font-family: IcielMontRegular;
   src:url( "../[iCiel] Mont/iCielMont-Regular.otf");
 }
-  @media screen and (max-height: 1366px) {
+@font-face{
+  font-family: IcielMontSemibold;
+  src:url("../[iCiel] Mont/iCielMont-SemiBold.otf")
+}
+@font-face{
+	font-family: IcielMontBook;
+	src: url( "../[iCiel] Mont/iCielMont-Book.otf")}
+
+		
+		
+
+@media screen and (max-height: 1366px) {
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
   }
 
-  @media only screen and (max-width: 1024px) {
+     @media only screen and (max-width: 1024px) {
 	.menu{
 		display: none;
 	}
@@ -760,14 +784,12 @@ button:hover:after,
 }
 
 .text--big {
-	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
 	font-size: 60px;
 	font-weight: 900;
 	line-height: 15px;
   margin-left: -8px;
 }
 .text--bignhahat {
-	font-family: "iCiel Mont", "iCiel Mont Black", "iCiel Mont Bold", "iCiel Mont Heavy", "iCiel Mont SemiBold", "iCiel Mont Light", "iCiel Mont Book";
 	font-size: 83px;
 	font-weight: 900;
 	line-height: 95px;
@@ -775,7 +797,6 @@ button:hover:after,
 	color:black;
 }
 .text--bigline {
-	font-family: "iCiel Mont Black";
 	font-size: 48px;
 	font-weight: 900;
     margin-left: -8px;
@@ -787,7 +808,6 @@ button:hover:after,
   
 .text--normal {
 	font-size: 15px;
-	font-family:"iCiel Mont";
 	font-weight: 500;
 	line-height: 10px;
 	margin-top: 25px;
@@ -848,7 +868,6 @@ button {
 	display: inline-block;
 	outline: none;
 	top: 50px;
-	font-family: "iCiel Mont";
 	left:100px; 
 	font-weight: 600;
 	-webkit-transition: all 0.3s cubic-bezier(0.770, 0.000, 0.175, 1.000);
