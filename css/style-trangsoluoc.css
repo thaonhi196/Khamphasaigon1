@@ -724,18 +724,18 @@ hr.new2
 
 
 
-@media screen and (max-height: 1366px) {
+@media screen and (max-height: 1024px) {
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
   }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
 	.menu {display: none;}
 	.menu-ipad{
 		display: block;
 	}
 }
 	
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
 	body{
 		overflow-y: auto;
 		overflow-x: hidden;
@@ -755,14 +755,14 @@ flex-direction: column-reverse;
 	height:auto}
 	
 .flex__item--left {
-width: auto;
+width:100%;
 height:130vh;
 float: none;
 opacity:1;
 padding-left:1vh;
 	}
 .flex__item--right {
-width: auto;
+width:100%;
 height:75.5vh;
 float:none;}
 

@@ -593,21 +593,21 @@ h2
 		  font-size:16px;
 	  }
 	  .noidung{
-		  width: auto;
+		  width: 100%;
 		  height:auto;
 		  display: flex;
 		  flex-direction: column;
 	  }
 	 .noidung1
 	  {
-		  width: auto;
+		  width: 100%;
 		  height:100vh;
 		  float:none;
 		  padding-left:-5%;
 	  }
 	  .noidung2
 	  {
-		  width: auto;
+		  width: 100%;
 		  height:85vh;
 		  float:none;
 		  padding-top:15vh;
